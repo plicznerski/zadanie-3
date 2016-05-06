@@ -4,6 +4,6 @@ function hitTheLoop(){
 	var lista = getElementById("lista");
 	lista.appendChild(newDiv);
 	var text = document.createTextNode("Test");
-	newDiv.appendChild(text);  
+	newDiv.appendChild(text);
 	}
 }
